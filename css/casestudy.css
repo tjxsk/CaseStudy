@@ -1,0 +1,100 @@
+body {
+    background-image: url(/images/2945080.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+}
+
+#img1 {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.txtgrp {
+    color: black;
+    margin-top: 8%;
+    margin-left: 5%;
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-card {
+    background-color: #ffffff; 
+    padding: 2%;
+    width: 250px;
+    margin-right: 1.5%;
+    border: 1px solid black;
+}
+.form-card .fh3{
+    color:rgb(0, 0, 0);
+}
+
+.form-card input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #6c737e; 
+    
+}
+
+.form-card button {
+    width: 88%;
+    padding: 10px;
+    background-color: #7393a7; 
+    color: #ffffff; 
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.form-card button:hover {
+    background-color: #6c737e;  
+}
+
+.form-card .signup-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.form-card .signup-text a {
+    color: #7393a7; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-card .signup-text a:hover {
+    color: #6c737e; 
+}
+
+.card2{
+    display: flex;
+    justify-content: space-between;
+}
+.card3{
+    margin:1%;
+    background-color: #E0E0E0;
+    border: 2px solid rgb(255, 255, 255);
+    color:black;
+    width: 20%;
+    padding: .5%;
+
+}
